@@ -25,9 +25,8 @@ public class RandomMango {
         RMConditions.CONDITION_CODECS.register(modEventBus);
 
         // Config
-        modContainer.registerConfig(ModConfig.Type.COMMON, ServerConfig.SPEC);
         modContainer.registerConfig(ModConfig.Type.CLIENT, ClientConfig.SPEC);
-        modContainer.registerConfig(ModConfig.Type.SERVER, CommonConfig.SPEC);
+        modContainer.registerConfig(ModConfig.Type.COMMON, CommonConfig.SPEC);
+        modContainer.registerConfig(ModConfig.Type.SERVER, ServerConfig.SPEC);
         modContainer.registerConfig(ModConfig.Type.STARTUP, StartupConfig.SPEC);
-
     }}

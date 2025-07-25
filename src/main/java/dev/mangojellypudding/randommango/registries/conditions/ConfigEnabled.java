@@ -4,6 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import dev.mangojellypudding.randommango.RMUtils;
+import dev.mangojellypudding.randommango.RandomMango;
 import dev.mangojellypudding.randommango.config.ServerConfig;
 import net.neoforged.neoforge.common.conditions.ICondition;
 import org.jetbrains.annotations.NotNull;
@@ -16,6 +17,7 @@ public interface ConfigEnabled {
 
         @Override
         public boolean test(@NotNull IContext iContext) {
+            RandomMango.LOGGER.info("Fuck recipe for" + path);
             return RMUtils.Config.toBoolean(ServerConfig.get("Recipes." + path));
         }
 
