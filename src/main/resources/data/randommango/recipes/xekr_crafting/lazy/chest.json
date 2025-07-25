@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "randommango:server_config",
+      "path": "recipes.xekr_crafting.lazy.chest"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "tag": "c:logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 4
+  }
+}
