@@ -1,0 +1,19 @@
+{
+  "itemGroup.randommango": "Example Mod Tab",
+  "block.randommango.example_block": "Example Block",
+  "item.randommango.example_item": "Example Item",
+
+  "randommango.configuration.title": "RandomMango Configs",
+
+  "randommango.configuration.client": "Client Configs",
+  "randommango.configuration.client.say_hi": "Say Hi in Client",
+
+  "randommango.configuration.server": "Server Configs",
+  "randommango.configuration.server.recipes": "Recipes Enabled",
+  "randommango.configuration.server.recipes.xekr_crafting": "Xekr's Crafting",
+  "randommango.configuration.server.recipes.xekr_crafting.lazy": "Lazy Crafting",
+  "randommango.configuration.server.recipes.xekr_crafting.lazy.chest": "Chest Recipes",
+
+  "randommango.configuration.common": "Common Configs",
+  "randommango.configuration.common.say_hi": "Say Hi in Common"
+}
